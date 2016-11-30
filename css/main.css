@@ -1,0 +1,63 @@
+.hidden {
+    visibility: hidden;
+}
+body {
+  background: #3C4468; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #596499 0%, #3C4468 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #596499 0%, #3C4468 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #596499 0%, #3C4468 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  color: #3C4468;
+}
+main {
+  margin-left: auto;
+  margin-right: auto;
+  height: 95vh;
+  width: 100vw;
+  max-width: 700px;
+  background: #D2AD56;
+  text-align: center;
+}
+h1, h2 {
+  text-transform: uppercase;
+  display: block;
+  line-height: 1;
+  letter-spacing: 20px;
+}
+h3 {
+  text-transform: uppercase;
+  display: block;
+  line-height: 1;
+  letter-spacing: 7px;
+}
+h4 {
+  letter-spacing: 7px;
+}
+a {
+    text-decoration: none;
+}
+header {
+  margin-bottom: 30px;
+}
+footer {
+  width: 100vw;
+  max-width: 700px;
+  background: #B9984A;
+}
+#intro {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 50px;
+}
+.w3-bottombar {
+  color: #3C4468;
+}
+.w3-panel {
+  background: #3C4468;
+  color: #D2AD56;
+}
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}

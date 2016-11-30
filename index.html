@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GitHub Resume</title>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="cv, resume, github" />
+  <meta name="description" content="GitHub Resume" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="img/favicon.png"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/jspdf.min.js"></script>
+</head>
+<body>
+  <div class="w3-row-padding w3-margin-bottom">
+    <div class="w3-container w3-display-topright w3-margin-bottom">
+      <button class="w3-btn w3-red no-print hidden" type="submit" id="genPDF">Save as PDF</button>
+    </div>
+  </div>
+  <div id="resume" class="w3-margin-bottom">
+    <main>
+      <header class="w3-row">
+        <a href='index.html'>
+          <div class="w3-container w3-bottombar">
+            <div class="w3-left-align"><h1 class="w3-text-shadow">GitHub</h1></div>
+          </div>
+          <div class="w3-container w3-bottombar">
+            <div class="w3-right-align"><h1 class="w3-text-shadow">Resume</h1></div>
+          </div>
+        </a>
+      </header>
+      <div id="intro" class="w3-row">
+          <div class="w3-panel w3-card-2 w3-round-large">
+            <h4 class="w3-margin-top">Generate your GitHub resume!</h4>
+            <input class="w3-input w3-round-large w3-hover-pink w3-margin-bottom" type="text" id="username" placeholder="Enter your GitHub username">
+            <button class="w3-btn w3-round-large w3-text-shadow w3-hover-pink w3-margin-bottom" type="submit" id="gen">Generate</button>
+          </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
