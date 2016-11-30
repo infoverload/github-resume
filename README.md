@@ -11,3 +11,5 @@ Since it is still a work in progress, some future considerations include:
 - option to alter the colour/aesthetics of the generated resume
 - more statistics and information displayed
 - OAuth for authorization to increase API limit and get more statistics
+- better error handling
+
